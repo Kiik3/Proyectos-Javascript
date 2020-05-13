@@ -1,0 +1,111 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: arial;
+	background-color: #343A30;
+	margin: 0;
+}
+
+.header{
+	position: relative;
+	background-color: white;
+	width: 100%;
+	padding: 20px;
+	padding-bottom: 100px;
+	text-align: center;
+	text-shadow: 2px 2px 5px;
+	box-shadow: 0 15px 30px;
+	margin-bottom: 150px;
+}
+
+.header img{
+	position: absolute;
+	border-radius: 50%;
+	left: 50%;
+	top: 100%;
+	transform: translate(-50%, -50%);
+	box-shadow: 15px 15px 30px;
+	animation: foto 1s;
+}
+
+@keyframes foto{
+	from {transform: translate(-50%, -30%);}
+	to {transform: translate(-50%, -50%);}
+}
+
+.grid{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 30px;
+	margin: 35px;
+}
+
+.grid > a{
+	text-decoration: none;
+	color: black;
+	background-color: white;
+	height: 100%;
+	padding: 15px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 10px;
+	text-align: justify;
+	transition: transform 0.5s;
+	animation: anime 1s;
+}
+
+@keyframes anime{
+	from {opacity: 0;
+		transform: translate(0, 35px);}
+	to {opacity: 1;
+		transform: translate(0, 0);}
+}
+
+.grid > a > h3{
+	text-align: center;
+}
+
+.grid img{
+	width: 100%;
+	height: 225px;
+}
+
+hr{
+	color: #f1f1f1;
+	width: 50%;
+	text-align: center;
+}
+
+.grid > a:hover{
+	opacity: 0.8;
+	transform: translate(0, -2.5%);
+}
+
+.grid > a:nth-last-child(1){
+	grid-area: 4 / 2 / span 1 / span 1;
+}
+
+@media screen and (max-width: 768px){
+	.grid{
+		grid-template-columns: auto auto;
+	}
+
+	.grid > a:nth-last-child(1){
+		grid-area: 5 / 2 / span 1 / span 1;
+	}
+}
+
+@media screen and (max-width: 600px){
+	.grid{
+		grid-template-columns: auto;
+	}
+	
+	.grid > a:nth-last-child(1){
+		grid-area: 10 / 1 / span 1 / span 1;
+	}
+
+	.grid img{
+		height: 175px;
+	}
+}

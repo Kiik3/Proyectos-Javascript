@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+<body>
+	<div class="container-fluid bg-dark">
+		<div class="display-4 text-center text-white p-3">GESTIONA TU PRESUPUESTO</div>
+	</div>
+	<div class="bg-light margenP shadow" id="pantallaPresupuesto" hidden="false">
+		<div class="col pt-5">
+			<h3 class="text-center mb-4">Ingresa tu presupuesto</h3>
+		</div>
+		<div class="p-5">
+		<div class="form-inline">Presupuesto</div>
+		<input type="number" id="presupuesto" class="form-control" placeholder="Presupuesto">
+		<input type="submit" id="ingresar" class="btn btn-primary mt-5" value="Ingresar">
+		</div>
+	</div>
+	<div class="bg-light margenG shadow pb-3" id="pantallaGasto" hidden="true">
+		<div class="row">
+			<div class="col-6 pl-5 pb-5 pt-5">
+				<h3 class="text-center mb-4">Añade tus Gastos</h3>
+				<form action="#" id="formulario">
+					<div class="form-group">
+						<div class="form-inline">Gasto</div>
+						<input type="text" id="gasto" class="form-control" placeholder="Nombre del gasto">
+					</div>
+					<div class="form-group">
+						<div class="form-inline">Cantidad</div>
+						<input type="number" id="cantidad" class="form-control" placeholder="Cantidad del gasto">
+					</div>
+					<input type="submit" class="btn btn-primary mt-2" value="Agregar" id="agregar">
+				</form>
+			</div>
+			<div class="col-6 pr-5 pb-5 pt-5" id="listado">
+				<h3 class="text-center mb-5 ">Listado de Gastos</h3>
+				<table class="text-center mb-5">
+					<thead>
+						<th>Gasto</th>
+						<th>Cantidad</th>
+					</thead>
+				</table>
+			</div>
+		</div>
+		<div class="text-center">
+			<input type="submit" id="eliminar" class="btn btn-danger" value="Eliminar Presupuesto">
+		</div>
+	</div>
+	<footer class="bg-dark fixed-bottom text-white text-center p-2">
+		<div>Portafolio Personal</div>
+	</footer>
+
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="app.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+</body>
+</html>

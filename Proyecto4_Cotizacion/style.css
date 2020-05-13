@@ -1,0 +1,39 @@
+body{
+	background-image: linear-gradient(to right, #FFB200, #FFCD00, #FFE800, #F9F258);
+}
+
+.titulo{
+	background-color: #8D03E7;
+	padding: 20px;
+}
+
+.margen{
+	margin: 2% 25%;
+}
+
+.color-letra{
+	color: #8D03E7;
+}
+
+select{
+	width: 100%;
+	padding: 5px;
+	border: none;
+	border-bottom: 2px outset #8D03E7;
+}
+
+.boton{
+	background-color: #8D03E7;
+	width: 100%;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+table{
+	width: 100%;
+	border: 1px outset #8D03E7;
+}
+
+thead{
+	background-color: #8D03E7;
+}

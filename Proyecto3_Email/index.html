@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+<body class="fondo">
+	<div class="bg-white margen shadow pb-3">
+		<div class="bg-primary p-2 text-center text-light">
+			<h5>Enviar Nuevo Mensaje</h5>
+		</div>
+		<div class="mr-5 ml-5 mt-4">
+		<form action="#" id="form">
+			<div class="form-group">
+				<div class="form-inline">Para:</div>
+				<input type="email" id="para" class="form-control" required="true">
+			</div>
+			<div class="form-group">
+				<div class="form-inline">Asunto:</div>
+				<input type="text" id="asunto" class="form-control" required="true">
+			</div>
+			<div class="form-group">
+				<div class="form-inline">Mensaje:</div>
+				<input type="text" id="mensaje" class="form-control" required="true">
+			</div>
+			<div class="text-center">
+				<div id="spinner"></div>
+				<img src="" id="email" alt="" width="100" height="82" class="gif">
+			</div>
+			<div class="row">
+				<div class="col">
+					<input type="submit" id="enviar" class="btn btn-primary" value="Enviar">
+				</div>
+				<div class="col text-right">
+					<input type="submit" id="reset" class="btn btn-danger" value="Reset">
+				</div>
+			</div>
+		</form>
+		</div>
+	</div> 
+	<footer class="bg-dark fixed-bottom text-white text-center p-3">
+		<div>Portafolio Personal</div>
+	</footer>
+	
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>	
+	<script src="app.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+</body>
+</html>

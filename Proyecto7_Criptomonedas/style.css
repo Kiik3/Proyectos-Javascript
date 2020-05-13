@@ -1,0 +1,36 @@
+body{
+    background-image: url('fondo.jpg');
+    background-repeat: repeat;
+    width: auto;
+    position: relative;
+}
+
+.transparente{
+    background-color: azure;
+    opacity: 0.95;
+}
+
+input{
+    width: 100%;
+    border: hidden;
+    border-bottom: 2px solid orange;
+}
+
+.selectVacio{
+    border: 1px solid tomato;
+    border-bottom: 2px solid tomato;
+}
+
+.selectLleno{
+    border: 1px solid green;
+    border-bottom: 2px solid green;
+}
+
+.fuente{
+    font-size: 4vw;
+}
+
+table{
+    width: 100%;
+    background-color: orange;
+}

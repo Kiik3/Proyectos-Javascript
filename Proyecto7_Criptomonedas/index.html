@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+<body>
+        <div class="row justify-content-center no-gutters">
+            <div class="col-11 col-sm-10 col-md-10 col-lg-8 transparente shadow m-5" id="contenido">
+                <div class="text-center bg-dark p-3 text-white fuente">Cotización de Criptomonedas</div>
+                <form action="#" class="row m-1 mt-3 m-sm-3 m-md-3 m-lg-5" id="formulario">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-5">
+                        <div class="form-group">
+                            <div class="form-inline">Ingresa la moneda</div>
+                            <input list="monedas" id="moneda" placeholder="Selecciona una opción" class="p-2">
+                            <datalist id="monedas">
+                                <option value="USD">Dólares Americano</option>
+                                <option value="EUR">Euros</option>
+                                <option value="MXN">Pesos Mexicanos</option>
+                            </datalist>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-5">
+                        <div class="form-group">
+                            <div class="form-inline">Ingresa la criptomoneda</div>
+                            <input list="criptomonedas" id="criptomoneda" placeholder="Selecciona un opción" class="p-2">
+                            <datalist id="criptomonedas">
+
+                            </datalist>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-2 mt-4 text-center">
+                        <div class="form-group">
+                            <input type="submit" id="cotizar" class="btn btn-primary" value="Cotizar">
+                        </div>
+                    </div>
+                </form>
+                <div class="row justify-content-center mb-3">
+                    <div class="col-10 col-sm-8 col-md-6">
+                        <table class="text-center" id="tabla">
+                        </table>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    <footer class="fixed-bottom bg-dark p-2 text-center text-white">Portafolio Personal</footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+.margen-nav{
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+.color-nav{
+	color: white;
+}
+
+.footer{
+	margin-top: auto;
+}
+
+.carousel-inner img{
+	width: 100%;
+	height: 500px;
+}
+
+.fondo{
+	background-image: linear-gradient(to right, #28B805, #77DF08, #C7F51C);
+}
+th{
+	text-align: right;
+}
+
+.boton{
+	color: white;
+	background-color: #EC463E;
+	border-radius: 35px;
+	width: 35px;
+	height: 35px;
+}
+
+.imagen{
+	width: 300px;
+	height: 300px;
+}

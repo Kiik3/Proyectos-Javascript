@@ -1,0 +1,15 @@
+.margen{
+	margin: 3% 25% 5% 25%;
+}
+
+.fondo{
+	background-image: linear-gradient(to right, #A43838, #F22B43, #F76269)
+}
+
+.invalido{
+	border-color: red;
+}
+
+.valido{
+	border-color: green;
+}

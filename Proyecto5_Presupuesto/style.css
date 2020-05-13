@@ -1,0 +1,17 @@
+body{
+	background-image: linear-gradient(to left, #5F3B00, #955D00, #CA7E01, #E09D2F)
+}
+
+.margenG{
+	margin: 3% 15%;
+	border-radius: 5px;
+}
+
+.margenP{
+	margin: 3% 35%;
+	border-radius: 5px;
+}
+
+table{
+	width: 100%;
+}

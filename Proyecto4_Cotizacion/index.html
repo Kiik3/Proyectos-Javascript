@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+<body>
+	<div class="bg-white margen pb-3 shadow">
+		<div class="titulo text-white text-center">
+			Cotización de Seguro de Autos
+		</div>
+		<div class="mt-5 mr-5 ml-5">
+		<form action="#" id="formulario">
+			<div class="form-group mb-4">
+				<div class="form-inline color-letra">Región del Auto</div>
+				<select name="sele" id="region" form="formulario">
+					<option value="">Americano</option>
+					<option value="">Europeo</option>
+					<option value="">Asiático</option>
+				</select>
+			</div>
+			<div class="form-group mb-4">
+				<div class="form-inline color-letra">Año</div>
+				<select name="sele" id="año" form="formulario">
+				</select>
+			</div>
+			<div class="form-group mb-4">
+				<div class="form-inline color-letra">Tipo de Seguro</div>
+				<div class="form-check">
+					<label class="form-check-label">
+						<input type="radio" class="form-check-input" name="radio">Completo
+					</label>
+				</div>
+				<div class="form-check">
+					<label class="form-check-label">
+						<input type="radio" class="form-check-input" name="radio">Básico
+					</label>
+				</div>
+			</div>
+			<div class="text-center mb-4" hidden="true">
+				<img src="loading.gif" alt="" width="20%" height="20%">
+			</div>
+			<table class="text-center mb-4" hidden="true">
+				<thead class="text-white">
+					<th>Resumen:</th>
+				</thead>
+			</table>
+			<input type="submit" id="cotizar" class="boton text-white" value="Cotizar">
+
+		</form>
+		</div>
+	</div>
+	<footer class="bg-dark fixed-bottom text-white text-center p-3">
+		<div>Portafolio Personal</div>
+	</footer>
+	
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="app.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+</body>
+</html>

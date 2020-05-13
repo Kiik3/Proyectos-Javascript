@@ -1,0 +1,15 @@
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.bg-fotos{
+    background-image: url(img/lennon.jpg), url(img/weeknd.jpg), url(img/lipa.jpg), url(img/ceratti.jpg);
+    background-position: 0%, 33.33%, 66.66%, 99.99%;
+    background-size: 25% 100%, 25% 100%, 25% 100%, 25% 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+}
+
+.fuente{
+    font-size: 4vw;
+}

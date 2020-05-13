@@ -1,0 +1,19 @@
+body{
+    background-image: url('fondo_animales.jpg');
+}
+
+.titulo{
+    background-color: orange;
+    text-align: center;
+    color: white;
+    opacity: 0.95;
+}
+
+textarea{
+    width: 100%;
+    border-radius: 5px;
+}
+
+table{
+    width: 100%;
+}
