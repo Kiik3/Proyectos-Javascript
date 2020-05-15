@@ -10,14 +10,17 @@ body{
 
 .header{
 	position: relative;
-	background-color: white;
+	background-image: linear-gradient(to right, #f1f1f1, white, #f1f1f1 );
 	width: 100%;
 	padding: 20px;
 	padding-bottom: 100px;
 	text-align: center;
-	text-shadow: 2px 2px 5px;
 	box-shadow: 0 15px 30px;
 	margin-bottom: 150px;
+}
+
+.header > section, h1, h2, h5{
+	animation: anime 1s;
 }
 
 .header img{
@@ -31,8 +34,10 @@ body{
 }
 
 @keyframes foto{
-	from {transform: translate(-50%, -30%);}
-	to {transform: translate(-50%, -50%);}
+	from {opacity: 0;
+		transform: translate(-50%, -30%);}
+	to {opacity: 1;
+		transform: translate(-50%, -50%);}
 }
 
 .grid{
@@ -40,6 +45,12 @@ body{
 	grid-template-columns: auto auto auto;
 	grid-gap: 30px;
 	margin: 35px;
+}
+
+.nota{
+	text-align: center;
+	color: white;
+	animation: anime 1s;
 }
 
 .grid > a{
