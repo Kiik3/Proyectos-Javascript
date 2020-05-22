@@ -10,12 +10,13 @@ body{
 
 .header{
 	position: relative;
-	background-image: linear-gradient(to right, #f1f1f1, white, #f1f1f1 );
+	background-color: #228B22;
+	color: white;
 	width: 100%;
 	padding: 20px;
 	padding-bottom: 100px;
 	text-align: center;
-	box-shadow: 0 15px 30px;
+	box-shadow: 0 15px 30px black;
 	margin-bottom: 150px;
 }
 
@@ -29,7 +30,7 @@ body{
 	left: 50%;
 	top: 100%;
 	transform: translate(-50%, -50%);
-	box-shadow: 15px 15px 30px;
+	box-shadow: 15px 15px 30px black;
 	animation: foto 1s;
 }
 
