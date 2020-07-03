@@ -94,10 +94,6 @@ hr{
 	transform: translate(0, -2.5%);
 }
 
-.grid > a:nth-last-child(1){
-	grid-area: 4 / 2 / span 1 / span 1;
-}
-
 @media screen and (max-width: 768px){
 	.grid{
 		grid-template-columns: auto auto;
